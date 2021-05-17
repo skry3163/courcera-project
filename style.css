@@ -1,0 +1,28 @@
+.box{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 33%;
+    margin: 2px;
+}
+.container
+{
+    display: flex;
+    border: 2px solid black;
+}
+@media(max-width:750px)
+{
+    #box1{
+        width: 50%;
+    }
+    #box2{
+        width: 50%;
+    }
+    #box3{
+        width: 100%;
+    }
+    .container{
+        display:inline-block;
+        width: 100% ;
+    }
+}
